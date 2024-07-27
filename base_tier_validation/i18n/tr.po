@@ -6,20 +6,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: tr\n"
+"POT-Creation-Date: 2022-06-15 20:12+0000\n"
+"PO-Revision-Date: 2022-06-15 20:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
 
 #. module: base_tier_validation
 #. openerp-web
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "0 Pending"
-msgstr ""
+msgstr "0 Bekliyor"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
@@ -28,6 +29,9 @@ msgid ""
 "                This Record needs to be\n"
 "                validated."
 msgstr ""
+"<i class=\"fa fa-info-circle\"/>\n"
+"                Bu kaydın doğrulanması\n"
+"                gerekiyor."
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
@@ -37,6 +41,10 @@ msgid ""
 "                <b>rejected</b>\n"
 "                ."
 msgstr ""
+"<i class=\"fa fa-thumbs-down\"/>\n"
+"                Operasyon\n"
+"                <b>reddedildi</b>\n"
+"                ."
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
@@ -46,97 +54,101 @@ msgid ""
 "                <b>validated</b>\n"
 "                !"
 msgstr ""
+"<i class=\"fa fa-thumbs-up\"/>\n"
+"                Operasyon\n"
+"                <b>doğrulandı</b>\n"
+"                !"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "<span class=\"oe_edit_only\">Name</span>"
-msgstr ""
+msgstr "<span class=\"oe_edit_only\">İsim</span>"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review has been requested by %s."
-msgstr ""
+msgstr "%s tarafından bir inceleme istendi."
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted"
-msgstr ""
+msgstr "Bir inceleme kabul edildi"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted. (%s)"
-msgstr ""
+msgstr "Bir inceleme kabul edildi. (%s)"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %s."
-msgstr ""
+msgstr "Bir inceleme %s tarafından reddedildi."
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by {}. ({})"
-msgstr ""
+msgstr "Bir inceleme {} tarafından reddedildi. ({})"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A validation process is still open for at least one record."
-msgstr ""
+msgstr "En az bir kayıt için bir doğrulama işlemi hala açıktır."
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__active
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
 #. module: base_tier_validation
 #. openerp-web
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "Activities"
-msgstr ""
+msgstr "Aktiviteler"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__group
 msgid "Any user in a specific group"
-msgstr ""
+msgstr "Belirli bir gruptaki herhangi bir kullanıcı."
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "Apply On"
-msgstr ""
+msgstr "Uygula"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,help:base_tier_validation.field_tier_definition__approve_sequence
 #: model:ir.model.fields,help:base_tier_validation.field_tier_review__approve_sequence
 msgid "Approval order by the specified sequence number"
-msgstr ""
+msgstr "Belirtilen sıra numarasına göre onay sırası"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__approve_sequence
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__approve_sequence
 msgid "Approve by sequence"
-msgstr ""
+msgstr "Sıraya göre onayla"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__approved
 msgid "Approved"
-msgstr ""
+msgstr "Onaylandı"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__can_review
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__can_review
 msgid "Can Review"
-msgstr ""
+msgstr "İnceleyebilir"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,help:base_tier_validation.field_tier_review__can_review
@@ -144,11 +156,13 @@ msgid ""
 "Can review will be marked if the review is pending and the\n"
 "        approve sequence has been achieved"
 msgstr ""
+"İnceleme beklemedeyse ve onay dizisine ulaşıldıysa,\n"
+" inceleme yapılabilir olarak işaretlenir"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -160,48 +174,48 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
 #, python-format
 msgid "Comment"
-msgstr ""
+msgstr "Yorum"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_comment_wizard
 msgid "Comment Wizard"
-msgstr ""
+msgstr "Yorum Sihirbazı"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__comment
 msgid "Comments"
-msgstr ""
+msgstr "Yorumlar"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__company_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__company_id
 msgid "Company"
-msgstr ""
+msgstr "Şirket"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Oluşturan"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Oluşturma Tarihi"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_type
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__definition_id
 msgid "Definition"
-msgstr ""
+msgstr "Tanım"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_domain
 msgid "Definition Domain"
-msgstr ""
+msgstr "Tanım Etki Alanı"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -210,7 +224,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__name
 #, python-format
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__display_name
@@ -218,45 +232,45 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__display_name
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Görünen Ad"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__definition_type__domain
 msgid "Domain"
-msgstr ""
+msgstr "Tamamlayan"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__done_by
 msgid "Done By"
-msgstr ""
+msgstr "Tamamlayan"
 
 #. module: base_tier_validation
 #. openerp-web
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Done by"
-msgstr ""
+msgstr "Tamamlayan"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__field
 msgid "Field in related record"
-msgstr ""
+msgstr "İlişkili kayıttaki alan"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "Group %s"
-msgstr ""
+msgstr "Grup %s"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
 msgid "Group By"
-msgstr ""
+msgstr "Gruplandırma Ölçütü"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__has_comment
 msgid "Has Comment"
-msgstr ""
+msgstr "Yorum Var mı"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__id
@@ -264,7 +278,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__id
 msgid "ID"
-msgstr ""
+msgstr "Kimlik"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_create
@@ -272,6 +286,8 @@ msgid ""
 "If set, all possible reviewers will be notified by email when this "
 "definition is triggered."
 msgstr ""
+"Ayarlanırsa, bu tanım tetiklendiğinde tüm olası gözden geçirenler e-posta "
+"ile bilgilendirilecektir."
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard____last_update
@@ -279,21 +295,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review____last_update
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Son Değiştirilme Tarihi"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Son Güncelleyen"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Son Güncelleme Tarihi"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model
@@ -304,53 +320,53 @@ msgstr ""
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "More Options"
-msgstr ""
+msgstr "Doğrulama Gerekiyor"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__need_validation
 msgid "Need Validation"
-msgstr ""
+msgstr "Doğrulama Gerekiyor"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_definition.py:0
 #, python-format
 msgid "New Tier Validation"
-msgstr ""
+msgstr "Yeni Aşama Doğrulaması"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__next_review
 msgid "Next Review"
-msgstr ""
+msgstr "Sonraki İnceleme"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Next: %s"
-msgstr ""
+msgstr "Sonraki: %s"
 
 #. module: base_tier_validation
 #. openerp-web
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "No reviews to do."
-msgstr ""
+msgstr "Yapacak inceleme yok."
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__notify_on_create
 msgid "Notify Reviewers on Creation"
-msgstr ""
+msgstr "İncelemecileri Oluşturma Konusunda Bilgilendirin"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Operation has been <b>rejected</b>."
-msgstr ""
+msgstr "Operasyon <b>reddedildi</b>."
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Operation has been <b>validated</b>!"
-msgstr ""
+msgstr "Operasyon <b>onaylandı</b>!"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -358,23 +374,23 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__pending
 #, python-format
 msgid "Pending"
-msgstr ""
+msgstr "Bekliyor"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model_id
 msgid "Referenced Model"
-msgstr ""
+msgstr "Başvurulan Model"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
 msgid "Reject"
-msgstr ""
+msgstr "Red"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__rejected
 msgid "Rejected"
-msgstr ""
+msgstr "Reddedildi"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected_message
@@ -384,29 +400,29 @@ msgstr ""
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__res_id
 msgid "Related Document ID"
-msgstr ""
+msgstr "İlgili Belge Kimliği"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__model
 msgid "Related Document Model"
-msgstr ""
+msgstr "İlgili Belge Modeli"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_buttons
 msgid "Request Validation"
-msgstr ""
+msgstr "Doğrulama İsteği"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__requested_by
 msgid "Requested By"
-msgstr ""
+msgstr "İsteyen"
 
 #. module: base_tier_validation
 #. openerp-web
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Requested by"
-msgstr ""
+msgstr "İsteyen"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__res_id
@@ -421,7 +437,7 @@ msgstr ""
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_buttons
 msgid "Restart Validation"
-msgstr ""
+msgstr "Doğrulamayı Yeniden Başlat"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -429,31 +445,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__review_ids
 #, python-format
 msgid "Review"
-msgstr ""
+msgstr "İnceleme"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_id
 msgid "Reviewer"
-msgstr ""
+msgstr "İnceleyen"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_field_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_field_id
 msgid "Reviewer field"
-msgstr ""
+msgstr "İnceleyeni Tespit Alanı"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_group_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_group_id
 msgid "Reviewer group"
-msgstr ""
+msgstr "İnceleyen grup"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_ids
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__reviewer_ids
 msgid "Reviewers"
-msgstr ""
+msgstr "İnceleyenler"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -462,7 +478,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_res_users__review_ids
 #, python-format
 msgid "Reviews"
-msgstr ""
+msgstr "İncelemeler"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -471,12 +487,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__sequence
 #, python-format
 msgid "Sequence"
-msgstr ""
+msgstr "Sıra"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__individual
 msgid "Specific user"
-msgstr ""
+msgstr "Belirli Kullanıcı"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -484,25 +500,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__status
 #, python-format
 msgid "Status"
-msgstr ""
+msgstr "Durumu"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "The operation is under validation."
-msgstr ""
+msgstr "İşlem doğrulama aşamasındadır."
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "There are no res.users in the selected field"
-msgstr ""
+msgstr "Seçilen alan kullanıcı tanımı alanı değil"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "This %s needs to be validated"
-msgstr ""
+msgstr "%s kaydı onay bekliyor"
 
 #. module: base_tier_validation
 #: code:addons/base_tier_validation/models/tier_validation.py:0
@@ -512,7 +528,9 @@ msgid ""
 " - %s \n"
 "Please request a validation."
 msgstr ""
-
+"Bu eylemin en az bir kayıt için doğrulanması gerekiyor. Bekleyen incelemeler:\n"
+" - %s \n"
+"Lütfen bir doğrulama isteyin."
 #. module: base_tier_validation
 #: model:ir.actions.act_window,name:base_tier_validation.tier_definition_action
 #: model:ir.model,name:base_tier_validation.model_tier_definition
@@ -520,91 +538,91 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_tree
 msgid "Tier Definition"
-msgstr ""
+msgstr "Aşama Tanımı"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_tier_review
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_review_view_tree
 msgid "Tier Review"
-msgstr ""
+msgstr "Aşama İncelemesi"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_tier_validation
 msgid "Tier Validation (abstract)"
-msgstr ""
+msgstr "Aşama Doğrulaması (soyut)"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_accepted
 msgid "Tier Validation Accepted Notification"
-msgstr ""
+msgstr "Aşama Doğrulaması Kabul Edildi Bildirimi"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_rejected
 msgid "Tier Validation Rejected Notification"
-msgstr ""
+msgstr "Aşama Doğrulaması Reddedildi Bildirimi"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_requested
 msgid "Tier Validation Requested"
-msgstr ""
+msgstr "Aşama Doğrulaması İstendi"
 
 #. module: base_tier_validation
 #: model:ir.ui.menu,name:base_tier_validation.menu_tier_confirmation
 msgid "Tier Validations"
-msgstr ""
+msgstr "Aşama Doğrulamaları"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__to_validate_message
 msgid "To Validate Message"
-msgstr ""
+msgstr "Mesajı Doğrulamak için"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__todo_by
 msgid "Todo By"
-msgstr ""
+msgstr "Yapılacaklar"
 
 #. module: base_tier_validation
 #. openerp-web
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Todo by"
-msgstr ""
+msgstr "Yapılacaklar"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_res_users
 msgid "Users"
-msgstr ""
+msgstr "Kullanıcılar"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__valid_reviewer_field_ids
 msgid "Valid Reviewer Field"
-msgstr ""
+msgstr "Geçerli İnceleyici Alanları"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
 msgid "Validate"
-msgstr ""
+msgstr "Doğrula"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__validate_reject
 msgid "Validate Reject"
-msgstr ""
+msgstr "Doğrulama Red"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated
 msgid "Validated"
-msgstr ""
+msgstr "Doğrulandı"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated_message
 msgid "Validated Message"
-msgstr ""
+msgstr "Doğrulanmış Mesaj"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__review_type
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__review_type
 msgid "Validated by"
-msgstr ""
+msgstr "Doğrulayan"
 
 #. module: base_tier_validation
 #. openerp-web
@@ -612,14 +630,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewed_date
 #, python-format
 msgid "Validation Date"
-msgstr ""
+msgstr "Doğrulama Tarihi"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__review_ids
 msgid "Validations"
-msgstr ""
+msgstr "Doğrulamalar"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "e.g. Tier Validation for..."
-msgstr ""
+msgstr "Örneğin. Aşama Doğrulaması..."

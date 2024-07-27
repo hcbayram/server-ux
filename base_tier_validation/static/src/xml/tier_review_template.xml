@@ -58,7 +58,7 @@
                             <span t-esc="review.requested_by[1]" />
                         </td>
                         <td class="text-right">
-                            <span t-esc="review.name" />
+                            <span t-esc="review.name + ' ' + review.alg_tier_detail" />
                         </td>
                         <td class="text-right">
                             <span t-esc="review.display_status" />
